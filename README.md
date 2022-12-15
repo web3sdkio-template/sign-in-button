@@ -30,7 +30,7 @@ Now, you can navigate to [http://localhost:3000](http://localhost:3000) to visit
 
 ## How It Works
 
-Using [Auth](https://portal.web3sdk.io/auth), we ask users to sign in using their web3 wallet.
+Using [Auth](https://docs.web3sdk.io/auth), we ask users to sign in using their web3 wallet.
 
 We need to create a configuration file that contains our wallet's private key (used to generate messages for users to sign) and our site's domain name:
 
@@ -71,7 +71,7 @@ Inside the [\_app.jsx](./pages/_app.jsx) file, we configure the Auth SDK in the 
 
 ### Passing auth prop into the ConnectWallet component
 
-We pass in the auth prop in the `ConnectWallet` which is an object. I am just passing the `loginOptional` parameter but you can customize it however you want. You can see the parameters [here](https://portal.web3sdk.io/ui-components/connectwalletbutton#with-auth)
+We pass in the auth prop in the `ConnectWallet` which is an object. I am just passing the `loginOptional` parameter but you can customize it however you want. You can see the parameters [here](https://docs.web3sdk.io/ui-components/connectwalletbutton#with-auth)
 
 ```jsx
 <ConnectWallet
@@ -83,4 +83,4 @@ We pass in the auth prop in the `ConnectWallet` which is an object. I am just pa
 
 ## Join our Discord!
 
-For any questions, suggestions, join our discord at [https://discord.gg/web3sdkio](https://discord.gg/web3sdkio).
+For any questions, suggestions, join our discord at [https://discord.gg/n33UhsfUKB](https://discord.gg/n33UhsfUKB).
